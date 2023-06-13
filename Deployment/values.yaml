@@ -1,0 +1,14 @@
+deployment:
+  name: iti
+  replicas: 1
+  port: 80
+
+service:
+  name: myservice
+  type: LoadBalancer
+  port: 80
+
+image:
+  repository: ahmedibrahimcs/iti-app
+  tag: v1
+  pullPolicy: Always

@@ -1,0 +1,4 @@
+apiVersion: v2
+name: ITI
+description: A Helm chart for deploying a ITI App
+version: 0.1.0
